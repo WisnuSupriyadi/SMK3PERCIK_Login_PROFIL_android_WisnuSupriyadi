@@ -1,0 +1,8 @@
+1. Alur Register (Pendaftaran Akun Baru):
+	• Pengguna membuka halaman register → Mengisi data diri (nama, email, password) → Sistem mengecek apakah email sudah terdaftar atau belum (menggunakan simbol decision / belah ketupat).
+	• Jika sudah terdaftar, sistem menampilkan pesan kesalahan → kembali ke form.
+	• Jika belum terdaftar, sistem menyimpan data ke database → menampilkan pesan sukses → diarahkan ke halaman login.
+2. Alur Login (Masuk ke Sistem):
+	• Pengguna membuka halaman login → Memasukkan email dan password → Sistem memverifikasi kecocokan data dengan yang ada di database.
+	• Jika tidak cocok, sistem menampilkan peringatan (username/password salah) → kembali ke form login.
+	• Jika cocok, sistem membuat sesi (session/token) → masuk ke halaman utama (dashboard).
