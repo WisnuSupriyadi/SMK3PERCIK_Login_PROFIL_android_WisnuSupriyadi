@@ -1,0 +1,9 @@
+
+1. Sebagai Acuan / Blueprint bagi Programmer
+	• Membantu pengembang perangkat lunak (developer) memahami logika pemrograman yang harus dibuat di balik fitur login dan register (seperti percabangan/kondisi if-else untuk validasi password atau akun terdaftar).
+2. Alat Komunikasi dengan Tim dan Klien
+	• Mempermudah Analis Sistem (System Analyst) untuk menjelaskan alur kerja aplikasi kepada stakeholder atau klien tanpa harus membaca baris kode yang rumit.
+3. Identifikasi Cabang Keputusan (Decision Node) dan Kesalahan
+	• Memetakan alur alternatif, seperti:
+		• Apa yang terjadi jika password salah?
+		• Apa yang terjadi jika email sudah terdaftar?

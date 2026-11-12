@@ -1,0 +1,14 @@
+• Fungsi dalam Sistem:
+	• Pengumpulan Data: Meminta dan menerima data diri pengguna (seperti nama, email, nomor telepon, dan kata sandi).
+	• Validasi Awal: Memastikan data yang dimasukkan belum terdaftar sebelumnya (misal: cek keunikan email/username).
+	• Penyimpanan (Persistence): Menyimpan data kredensial pengguna ke dalam basis data (database) agar bisa dikenali sistem di kemudian hari.
+	• Inisialisasi Hak Akses: Memberikan status akun baru kepada pengguna sehingga berhak masuk ke area atau fitur tertentu.
+
+. Fungsi Use Case Login (Masuk Sistem)
+
+• Tujuan Utama: Melakukan autentikasi terhadap identitas pengguna yang sudah terdaftar.
+• Fungsi dalam Sistem:
+	• Verifikasi Kredensial: Mencocokkan username/email dan password yang diinput pengguna dengan data yang ada di database.
+	• Pengamanan & Pembatasan: Mencegah akses ilegal dari pihak yang tidak berhak masuk ke dalam sistem.
+	• Penentuan Hak Akses (Authorization): Mengarahkan pengguna ke halaman atau fitur yang sesuai dengan peran mereka (misalnya membedakan hak akses antara Admin, Guru, Siswa, atau User biasa).
+	• Manajemen Sesi (Session):
